@@ -184,7 +184,6 @@ nav #menu li a:hover {
 
 /*--------------- hero section --------------- */
 .central {
-      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -302,3 +301,20 @@ nav #menu li a:hover {
             padding: 0;
       }
 }
+
+
+#schedule_link_mobile{
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 70px;
+  }
+
+  @media(max-width: 950px) {
+      #schedule_link_mobile{
+          display: block;
+      }
+      #schedule_link_pc{
+          display: none;
+      }
+  }
