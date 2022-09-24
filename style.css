@@ -15,7 +15,7 @@ table {margin:15px}
       height: 100px;
 }
 
-@media(max-width: 950px) {
+@media(max-width: 750px) {
       .whitespace {
             display: none;
       }
@@ -31,7 +31,7 @@ nav {
 nav #ulbs {
       float: left;
       display: block;
-      margin-left: 82px;
+      margin-left: 70px;
       line-height: 80px;
       font-weight: bold;
 }
@@ -150,7 +150,7 @@ nav #menu li a:hover {
       opacity: 1;
 }
 
-@media(max-width: 950px) {
+@media(max-width: 750px) {
       #toggle {
             visibility: visible;
             opacity: 1;
@@ -176,7 +176,7 @@ nav #menu li a:hover {
       }
 }
 
-@media(min-width: 950px) {
+@media(min-width: 750px) {
       #resize {
             visibility: hidden !important;
       }
@@ -198,7 +198,7 @@ nav #menu li a:hover {
       line-height: 58px;
 }
 
-@media(max-width: 950px) {
+@media(max-width: 750px) {
       .header h1 {
             font-size: 26px;
       }
@@ -291,7 +291,7 @@ nav #menu li a:hover {
       display: inline-block;
 }
 
-@media(max-width: 950px) {
+@media(max-width: 750px) {
       .collab, #personal, #media, #address {
             text-align: center;
       }
@@ -310,7 +310,7 @@ nav #menu li a:hover {
       padding: 70px;
   }
 
-  @media(max-width: 950px) {
+  @media(max-width: 750px) {
       #schedule_link_mobile{
           display: block;
       }
