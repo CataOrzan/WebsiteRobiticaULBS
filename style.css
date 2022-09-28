@@ -12,6 +12,7 @@ table {
       margin: 2rem;
       border-collapse: collapse;
       width: 100%;
+      text-align: center;
     }
     
     th, td {
