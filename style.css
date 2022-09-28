@@ -7,17 +7,26 @@ html, body {
       background: #ffffff !important;
       color: rgb(0, 0, 0) !important;
 }
+.responsive {
+      width: 100%;
+      height: auto;
+      margin: 2rem;
+    }
 
 table {
       margin: 2rem;
       border-collapse: collapse;
       width: 100%;
-      text-align: center;
+      border: 1px solid #0B2F63;;
     }
     
     th, td {
       text-align: left;
       padding: 8px;
+      text-align: center;
+    }
+    tr {
+      text-align: center;
     }
     .sticky-col {
       position: -webkit-sticky;
@@ -27,8 +36,8 @@ table {
     
     .first-col {
       width: 100px;
-      min-width: 100px;
-      max-width: 100px;
+      min-width: 70px;
+      max-width:700px;
       left: 0px;
     }
 
@@ -209,8 +218,7 @@ nav #menu li a:hover {
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 70px;
-      border: 1px solid #0B2F63;;
+      padding: 50px;
 }
 
 .central h1 {
