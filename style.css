@@ -227,3 +227,19 @@ table tr td:last-child {
     display: none;
   }
 }
+
+a:link {
+  color: #0b2f63;
+}
+
+a:visited {
+  color: #0b2f63;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
