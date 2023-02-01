@@ -242,3 +242,7 @@ a:focus {
 a:hover {
   border-bottom: 1px solid;
 }
+
+.mainimage {
+  height: 200px;
+}
