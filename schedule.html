@@ -41,7 +41,7 @@
         </li>
       </ul>
     </div>
-    <div class="parent">
+    <div class="content">
       <div class="child">
         Hidraulica <br />
         Bazele roboticii <br />
@@ -62,17 +62,17 @@
       </div>
       <div class="child">
         <form name="calculator" onsubmit="return false">
-        Nota:<input id="nr0" type="text" size="1"> <br />
-        Nota:<input id="nr1" type="text" size="1"> <br />
-        Nota:<input id="nr2" type="text" size="1"> <br />
-        Nota:<input id="nr3" type="text" size="1"> <br />
-        Nota:<input id="nr4" type="text" size="1"> <br />
-        Nota:<input id="nr5" type="text" size="1"> <br />
-        Nota:<input id="nr6" type="text" size="1"> <br />
+        <input id="nr0" type="text" size="1" placeholder="Nota"> <br />
+        <input id="nr1" type="text" size="1" placeholder="Nota"> <br />
+        <input id="nr2" type="text" size="1" placeholder="Nota"> <br />
+        <input id="nr3" type="text" size="1" placeholder="Nota"> <br />
+        <input id="nr4" type="text" size="1" placeholder="Nota"> <br />
+        <input id="nr5" type="text" size="1" placeholder="Nota"> <br />
+        <input id="nr6" type="text" size="1" placeholder="Nota"> <br />
       </div>
-      <button onclick="call()">Calculează</button> 
-      <div> Media aritmetică: <div id="art"></div> </div>
-      <div> Media ponderată: <div id="pnd"></div> </div>
+      <div><button class="button" onclick="call()">Calculează</button> </div> <br>
+      <div class="title"> Media aritmetică: <div id="art"></div> </div>
+      <div class="title"> Media ponderată: <div id="pnd"></div> </div>
     </form>
     </div>
   </body>

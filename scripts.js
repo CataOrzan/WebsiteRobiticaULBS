@@ -17,6 +17,6 @@ function call() {
     var cred = n0*5+n1*5+n2*3+n3*4+n4*4+n5*5+n6*4;
     pond = (cred/300)*10;
     avg = sum/7;
-    document.getElementById('art').innerHTML = avg;
-    document.getElementById('pnd').innerHTML = pond;
+    document.getElementById('art').innerHTML = parseFloat(avg).toFixed(2);
+    document.getElementById('pnd').innerHTML = parseFloat(pond).toFixed(2);
   }
