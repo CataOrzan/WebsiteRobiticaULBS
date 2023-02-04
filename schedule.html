@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
       rel="stylesheet"
     />
+    <script src="scripts.js"></script> 
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="logo.png" />
     <title>Robotică 134</title>
@@ -20,11 +21,17 @@
     <div class="wrapper">
       <ul>
         <li><a href="index.html">Acasă</a></li>
-        <li><a href="schedule.html">Orar</a></li>
+        <li><a href="schedule.html">CalculatorMedie</a></li>
         <li><a href="year.html">StructurăAn</a></li>
         <li><a href="todo.html">Examene/DeFăcut</a></li>
         <li><a href="fanuc.html">ConcursFANUC</a></li>
-        <li><a href="https://ums.ulbsibiu.ro/ums/do/secure/inregistrare_user" target="_blank">UMS</a></li>
+        <li>
+          <a
+            href="https://ums.ulbsibiu.ro/ums/do/secure/inregistrare_user"
+            target="_blank"
+            >UMS</a
+          >
+        </li>
         <li>
           <a
             href="https://drive.google.com/drive/folders/14NlVQiIKKzRnj3hOflS3dM1Zoqzz0A4I"
@@ -34,15 +41,39 @@
         </li>
       </ul>
     </div>
-    <div class="content">
-      <div class="title">Încă nu avem orar :(</div> <br> &nbsp;
-      <p>Masini si sisteme de productie - 4 credite</p>
-      <p>Sisteme de achizitie de date - 2 credite</p>
-      <p>Hidraulica - 3 credite</p>
-      <p>Actionarea robotilor - 4 credite</p>
-      <p>Proiectarea robotilor - 4 credite</p>
-      <p>Dinamica robotilor - 3 credite</p>
-      <p>Sezori si sisteme senzoriale - 3 credite</p>
+    <div class="parent">
+      <div class="child">
+        Hidraulica <br />
+        Bazele roboticii <br />
+        Organe de masini <br />
+        Programarea microcontrolerelor <br />
+        Programarea UR <br />
+        CATIA <br />
+        Proiectarea robotilor <br />
+      </div>
+      <div class="child">
+        5 credite <br />
+        5 credite <br />
+        3 credite <br />
+        4 credite <br />
+        4 credite <br />
+        5 credite <br />
+        4 credite <br />
+      </div>
+      <div class="child">
+        <form name="calculator" onsubmit="return false">
+        <input id="nr0" type="text" size="1"> <br />
+        <input id="nr1" type="text" size="1"> <br />
+        <input id="nr2" type="text" size="1"> <br />
+        <input id="nr3" type="text" size="1"> <br />
+        <input id="nr4" type="text" size="1"> <br />
+        <input id="nr5" type="text" size="1"> <br />
+        <input id="nr6" type="text" size="1"> <br />
+      </div>
+      <button onclick="call()">Calculează</button> 
+      <div> Media aritmetică: <div id="art"></div> </div>
+      <div> Media ponderată: <div id="pnd"></div> </div>
+    </form>
     </div>
   </body>
 </html>
