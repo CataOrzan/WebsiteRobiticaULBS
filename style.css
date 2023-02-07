@@ -288,6 +288,7 @@ a:hover {
   display: inline-block; 
   margin: 10px;
   font-size: 3.5vw;
+  color: pink;
 }
 
 .child2 {
