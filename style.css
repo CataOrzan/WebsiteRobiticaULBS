@@ -282,40 +282,49 @@ a:hover {
 
 }
 
-@media (max-width: 510px) {    
-
+@media (max-width: 510px) {                  
+  
   .child1 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 3.5vw;
-  color: pink;
-}
-
-.child2 {
-  display: none;
-}
-
-.child3 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 3vw;
-}
-
-.button{
-  padding: 10px 15px;
-}
-
-}
-
-@media (max-width: 405px) {
-
-.child1, .child2, .child3, .button {
-  display: none;
-}
-}
-
-@media (min-width: 405px) {
+    display: inline-block; 
+    margin: 10px;
+    font-size: 17px;
+  }
+  
+  .child2 {
+    display: none;
+  }
+  
+  .child3 {
+    display: inline-block; 
+    margin: 10px;
+    font-size: 10px;
+  }
+  
   .notnow {
     display: none;
   }
-}
+  }
+
+  @media (max-width: 400px) {                  
+  
+    .child1 {
+      display: inline-block; 
+      margin: 10px;
+      font-size: 12px;
+      line-height: 21px;
+    }
+    
+    .child2 {
+      display: none;
+    }
+    
+    .child3 {
+      display: inline-block; 
+      margin: 10px;
+      font-size: 1em;
+    }
+    
+    .notnow {
+      display: none;
+    }
+    }
