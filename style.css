@@ -241,24 +241,6 @@ a:hover {
   height: 200px;
 }
 
-.child1 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 1.2em;
-}
-
-.child2 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 1.2em;
-}
-
-.child3 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 1.2em;
-}
-
 .button {
   background-color: #0b2f63;
   border: none;
@@ -271,19 +253,92 @@ a:hover {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
-@media (max-width: 450px) {                  
-  .child2 {
-     display: none;
-  }
-  .child1 {
-    font-size: 1.2em;
-    overflow: break-word;
- }
- .button {
-  padding: 10px 15px;
- }
+@media (min-width: 510px) {                  
+  
+.child1 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.5em;
+}
 
+.child2 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.child3 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.notnow {
+  display: none;
+}
+
+}
+
+@media (max-width: 510px) {    
+
+  .child1 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.child2 {
+  display: none;
+}
+
+.child3 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.button{
+  padding: 10px 15px;
+}
+
+}
+
+@media (max-width: 400px) {    
+
+  .child1 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.1em;
+}
+
+.child2 {
+  display: none;
+}
+
+.child3 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 0.5em;
+}
+
+.button{
+  padding: 10px 15px;
+}
+
+}
+
+@media (max-width: 315px) {
+
+.child1, .child2, .child3, .button {
+  display: none;
+}
+}
+
+@media (min-width: 315px) {
+  .notnow {
+    display: none;
+  }
 }
