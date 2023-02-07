@@ -241,12 +241,22 @@ a:hover {
   height: 200px;
 }
 
-.child {
+.child1 {
   display: inline-block; 
-  float: middle;
-  margin-bottom: 2em;
-  font-size: 22px;
-  padding: 1%;
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.child2 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.child3 {
+  display: inline-block; 
+  margin: 10px;
+  font-size: 1.2em;
 }
 
 .button {
@@ -262,4 +272,18 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
   border-radius: 12px;
+}
+
+@media (max-width: 450px) {                  
+  .child2 {
+     display: none;
+  }
+  .child1 {
+    font-size: 1.2em;
+    overflow: break-word;
+ }
+ .button {
+  padding: 10px 15px;
+ }
+
 }
