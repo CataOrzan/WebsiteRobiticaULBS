@@ -287,7 +287,7 @@ a:hover {
   .child1 {
   display: inline-block; 
   margin: 10px;
-  font-size: 1.3em;
+  font-size: 3.5vw;
 }
 
 .child2 {
@@ -297,7 +297,7 @@ a:hover {
 .child3 {
   display: inline-block; 
   margin: 10px;
-  font-size: 1.3em;
+  font-size: 3vw;
 }
 
 .button{
@@ -306,38 +306,14 @@ a:hover {
 
 }
 
-@media (max-width: 405px) {    
-
-  .child1 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 1.1em;
-}
-
-.child2 {
-  display: none;
-}
-
-.child3 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 0.5em;
-}
-
-.button{
-  padding: 10px 15px;
-}
-
-}
-
-@media (max-width: 315px) {
+@media (max-width: 405px) {
 
 .child1, .child2, .child3, .button {
   display: none;
 }
 }
 
-@media (min-width: 315px) {
+@media (min-width: 405px) {
   .notnow {
     display: none;
   }
