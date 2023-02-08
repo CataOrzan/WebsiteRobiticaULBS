@@ -200,13 +200,11 @@ tr {
   height: 100px;
 }
 
-
-
 table {
   border-collapse: collapse;
 }
 table td {
-  border: 0.5px solid black; 
+  border: 0.5px solid black;
 }
 table tr:first-child td {
   border-top: 0;
@@ -256,75 +254,71 @@ a:hover {
   border-radius: 16px;
 }
 
-@media (min-width: 510px) {                  
-  
-.child1 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 1.5em;
-}
-
-.child2 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 1.5em;
-}
-
-.child3 {
-  display: inline-block; 
-  margin: 10px;
-  font-size: 1.5em;
-}
-
-.notnow {
-  display: none;
-}
-
-}
-
-@media (max-width: 510px) {                  
-  
+@media (min-width: 510px) {
   .child1 {
-    display: inline-block; 
+    display: inline-block;
     margin: 10px;
-    font-size: 17px;
+    font-size: 1.5em;
   }
-  
+
   .child2 {
-    display: none;
-  }
-  
-  .child3 {
-    display: inline-block; 
+    display: inline-block;
     margin: 10px;
-    font-size: 10px;
+    font-size: 1.5em;
   }
-  
+
+  .child3 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+  }
+
   .notnow {
     display: none;
   }
+}
+
+@media (max-width: 510px) {
+  .child1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 17px;
   }
 
-  @media (max-width: 400px) {                  
-  
-    .child1 {
-      display: inline-block; 
-      margin: 10px;
-      font-size: 12px;
-      line-height: 21px;
-    }
-    
-    .child2 {
-      display: none;
-    }
-    
-    .child3 {
-      display: inline-block; 
-      margin: 10px;
-      font-size: 1em;
-    }
-    
-    .notnow {
-      display: none;
-    }
-    }
+  .child2 {
+    display: none;
+  }
+
+  .child3 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  .notnow {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .child1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  .child2 {
+    display: none;
+  }
+
+  .child3 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1em;
+  }
+
+  .notnow {
+    display: none;
+  }
+}
