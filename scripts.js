@@ -1,22 +1,13 @@
 function call() {
-    var nr0 = document.getElementById("nr0").value;
-    var n0 = Number(nr0)
-    var nr1 = document.getElementById("nr1").value;
-    var n1 = Number(nr1)
-    var nr2 = document.getElementById("nr2").value;
-    var n2 = Number(nr2)
-    var nr3 = document.getElementById("nr3").value;
-    var n3 = Number(nr3)
-    var nr4 = document.getElementById("nr4").value;
-    var n4 = Number(nr4)
-    var nr5 = document.getElementById("nr5").value;
-    var n5 = Number(nr5)
-    var nr6 = document.getElementById("nr6").value;
-    var n6 = Number(nr6)
-    var sum = n0+n1+n2+n3+n4+n5+n6;
-    var cred = n0*5+n1*5+n2*3+n3*4+n4*4+n5*5+n6*4;
-    pond = (cred/300)*10;
-    avg = sum/7;
-    document.getElementById('art').innerHTML = parseFloat(avg).toFixed(2);
-    document.getElementById('pnd').innerHTML = parseFloat(pond).toFixed(2);
-  }
+  const inputs = [0, 1, 2, 3, 4, 5, 6].map(i => 
+    document.getElementById(`nr${i}`).value
+  );
+  const numbers = inputs.map(input => Number(input));
+  const sum = numbers.reduce((acc, n) => acc + n, 0);
+  const cred = numbers.reduce((acc, n, i) => acc + n * [5, 5, 3, 4, 4, 5, 4][i], 0);
+  const pond = (cred / 300) * 10;
+  const avg = sum / 7;
+  
+  document.getElementById('art').innerHTML = parseFloat(avg).toFixed(2);
+  document.getElementById('pnd').innerHTML = parseFloat(pond).toFixed(2);
+}
