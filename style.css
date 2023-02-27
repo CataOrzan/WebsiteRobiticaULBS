@@ -169,3 +169,39 @@ input[type="checkbox"] {
   font-size: 25px;
   font-weight: 600;
 }
+
+.content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.content th,
+.content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.content th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.content td:first-child {
+  font-weight: bold;
+}
+
+.content tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 750px) {
+  .desktop {
+    display: none;
+  }
+}
+@media (min-width: 750px) {
+  .mobile {
+    display: none;
+  }
+}
