@@ -206,18 +206,18 @@ input[type="checkbox"] {
 
 .mobile table{
   z-index: 2;
-  padding: 20px;
+  padding:px;
   border-collapse: collapse;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   margin: auto;
-  width: 50%;
+  width: 75%;
 }
 .mobile th, .mobile td {
   padding: 5px;
   text-align: center;
   border: 1px solid #0b2f63;
 }
-.mobile tr td             { width: 20em; }
+.mobile tr td             { width: 35em; }
 .mobile tr td:first-child { width: 10em; }
 .mobile h2 {
   margin: auto;
