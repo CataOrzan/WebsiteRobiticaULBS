@@ -242,3 +242,11 @@ a:focus {
 a:hover {
   border-bottom: 1px solid;
 }
+
+.ulbs {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 40;
+  padding: 20px;
+}
