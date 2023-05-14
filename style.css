@@ -250,3 +250,72 @@ a:hover {
   z-index: 40;
   padding: 20px;
 }
+
+@media (min-width: 510px) {
+  .child1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+  }
+
+  .child2 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+  }
+
+  .child3 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+  }
+
+  .notnow {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .child1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 17px;
+  }
+
+  .child2 {
+    display: none;
+  }
+
+  .child3 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  .notnow {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .child1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  .child2 {
+    display: none;
+  }
+
+  .child3 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1em;
+  }
+
+  .notnow {
+    display: none;
+  }
+}
