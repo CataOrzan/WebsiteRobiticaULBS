@@ -166,7 +166,7 @@ input[type="checkbox"] {
   font-weight: 700;
 }
 .content p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -318,4 +318,27 @@ a:hover {
   .notnow {
     display: none;
   }
+}
+
+
+.todo {
+  padding:80px;
+}
+
+button {
+  background-color: #0b2f63;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e5ca9;
 }
