@@ -249,6 +249,11 @@ a:hover {
   width: 100%;
   z-index: 40;
   padding: 20px;
+  display: none;
+}
+
+#active:not(:checked) ~ .ulbs {
+  display: block;
 }
 
 @media (min-width: 510px) {
