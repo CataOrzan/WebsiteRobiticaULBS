@@ -9,7 +9,7 @@ function call() {
     0
   );
   const pond = (cred / 300) * 10;
-  const avg = sum / 9;
+  const avg = sum / 7;
 
   document.getElementById("art").innerHTML = parseFloat(avg).toFixed(2);
   document.getElementById("pnd").innerHTML = parseFloat(pond).toFixed(2);
