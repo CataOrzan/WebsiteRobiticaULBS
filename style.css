@@ -347,3 +347,9 @@ button {
 button:hover {
   background-color: #1e5ca9;
 }
+
+.disabled {
+  pointer-events:none; 
+  opacity:0.6;
+  color: blue !important;      
+}
