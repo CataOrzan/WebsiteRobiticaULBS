@@ -1,11 +1,11 @@
 function call() {
-  const inputs = [0, 1, 2, 3, 4, 5, 6].map(
+  const inputs = [0, 1, 2, 3, 4, 5, 6, 7].map(
     (i) => document.getElementById(`nr${i}`).value
   );
   const numbers = inputs.map((input) => Number(input));
   const sum = numbers.reduce((acc, n) => acc + n, 0);
   const cred = numbers.reduce(
-    (acc, n, i) => acc + n * [4, 4, 4, 5, 4, 4, 5][i],
+    (acc, n, i) => acc + n * [3, 2, 4, 10, 3, 2, 3, 3][i],
     0
   );
   const pond = (cred / 300) * 10;
