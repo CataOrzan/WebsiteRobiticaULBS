@@ -38,8 +38,9 @@
       </li>
     </ul>
   </div>
-  <div class="content">
-    <img src="favicon.png" alt="PozaCeNuSeIncarca" height="200" /> <br />
+  <div class="content"  id="toggleCheckbox" >
+    <p>▼ MENIU ▼</p>
+    <img src="favicon.png" alt="PozaCeNuSeIncarca" height="200"/> <br />
     &nbsp;
     <div class="title">Website Robotică an IV</div>
     <p>Universitatea „Lucian Blaga” Sibiu - Facultatea de Inginerie</p>
@@ -49,6 +50,20 @@
       <img src="logo.png" alt="LogoULBS" height="100" />
     </a>
   </div>
+
+  <script>
+    // Get the image element
+    var image = document.getElementById("toggleCheckbox");
+
+    // Get the checkbox element
+    var checkbox = document.getElementById("active");
+
+    // Add click event listener to the image
+    image.addEventListener("click", function () {
+      // Toggle the checkbox state
+      checkbox.checked = !checkbox.checked;
+    });
+  </script>
 </body>
 
 </html>
